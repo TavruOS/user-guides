@@ -4,6 +4,7 @@ Start with an app from the TavruOS application menu. The screenshots show the pr
 
 | What you want to do | Guide |
 |---|---|
+| Install TavruOS and set up Wi-Fi, sign-in, protected media, and printing | [Installation walkthrough](installation.md) |
 | Turn a spreadsheet into charts and a dashboard | [Tavru Analytics](analytics.md) |
 | Link chart filters, arrange a dashboard, and infer charts or relationships | [Advanced Tavru Analytics](analytics-advanced.md) |
 | Build in Tavru Code and run the result with Podman or Docker | [Tavru Code + Tavru Containers](code-and-containers.md) |
