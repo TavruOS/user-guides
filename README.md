@@ -5,6 +5,7 @@ Start with an app from the TavruOS application menu. The screenshots show the pr
 | What you want to do | Guide |
 |---|---|
 | Turn a spreadsheet into charts and a dashboard | [Tavru Analytics](analytics.md) |
+| Link chart filters, arrange a dashboard, and infer charts or relationships | [Advanced Tavru Analytics](analytics-advanced.md) |
 | Build in Tavru Code and run the result with Podman or Docker | [Tavru Code + Tavru Containers](code-and-containers.md) |
 | Browse files, search for photos and receipts, use the web, or set up email | [Files, Browser, and Mail](apps.md#everyday-apps) |
 | Write documents, edit spreadsheets, make slides, or review a PDF | [Documents and presentations](apps.md#documents-and-presentations) |

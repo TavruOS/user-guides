@@ -1,6 +1,6 @@
 # Build a sales dashboard in Tavru Analytics
 
-[All guides](README.md)
+[All guides](README.md) · [Advanced controls, layout, and inference](analytics-advanced.md)
 
 Practice with [sample-sales.csv](samples/sample-sales.csv). Save a local copy and keep it alongside your workbook. The sample is fictional and needs no database connection.
 
