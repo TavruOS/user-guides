@@ -13,6 +13,7 @@ Start with an app from the TavruOS application menu. The screenshots show the pr
 | Clean a sales worksheet, share it with Excel, and chart the result | [Sheets → Analytics](sheets-advanced.md) |
 | Review tracked edits and export a checked PDF | [Docs → PDF](document-review.md) |
 | Preview a firewall change and practice rollback | [Tavru Security](security-advanced.md) |
+| Back up your files and recover an earlier copy | [Tavru Echo](echo.md) |
 | Turn a dashboard into a briefing and handout | [Analytics → Presenter](presenter-briefing.md) |
 | Browse files, search for photos and receipts, use the web, or set up email | [Files, Browser, and Mail](apps.md#everyday-apps) |
 | Write documents, edit spreadsheets, make slides, or review a PDF | [Documents and presentations](apps.md#documents-and-presentations) |
