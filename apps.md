@@ -96,6 +96,15 @@ Open the application menu and search for an app by name. Launch it and use the t
 
 ### Communication, entertainment, and games
 
-Use **Communication** to find Discord, Slack, Zoom, and the Teams web shortcut. To play local media, open Tavru Media or VLC. Streaming entries open their respective services. For games, choose a launcher such as Steam Installer, Lutris, or Bottles and complete its setup before installing a supported game.
+The menu screenshots below show the updated layout prepared for the next ISO. On the currently downloadable image, some apps may appear under different categories.
 
-![Communication menu with meeting and messaging apps](screens/communication.png)
+- **Communication** groups Tavru Mail, Messages, Phone Connect, Discord, Slack, Zoom, and the Teams web shortcut.
+- **Entertainment** brings together Tavru Media and VLC for local playback, plus Spotify and Netflix. Streaming services may require an account or subscription.
+- **Games** includes Steam, Lutris, and Xbox Cloud Gaming. For Windows apps, look for Bottles and Windows Apps under **System**.
+- **System** keeps **Terminal** as the main command-line launcher and **System Monitor** for the KDE resource dashboard. **Archive Manager** is under **Utilities**.
+
+![Communication menu with Tavru Mail, Phone Connect, Messages, Discord, Slack, Teams, and Zoom](screens/communication.png)
+
+![Entertainment menu with Netflix, Spotify, Tavru Media, and VLC](screens/entertainment.png)
+
+![Games menu with Lutris, Steam, and Xbox Cloud Gaming](screens/games.png)
