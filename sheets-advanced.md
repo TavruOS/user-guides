@@ -1,17 +1,28 @@
-# Clean sales data in Tavru Sheets and chart it in Analytics
+# Clean sales data in Tavru Sheets and share it with Excel
 
 [All guides](README.md) · [Analytics dashboard guide](analytics.md)
 
-Use [sales-cleanup.csv](samples/sales-cleanup.csv) to practice standardizing labels. The script trims spaces and makes capitalization consistent so a region appears as one group in Analytics.
+Use [sales-cleanup.csv](samples/sales-cleanup.csv) to practice standardizing region labels. The formula uses standard spreadsheet functions supported by Tavru Sheets and Microsoft Excel. Save the result as an XLSX workbook so recipients can open it and edit the formulas.
 
 ![Tavru Sheets workbook and editing ribbon](screens/sheets.png)
 
-The Python example requires a Tavru Sheets build with the `workbook` scripting API. If your preview build predates that API, use the [formula workflow](#use-a-formula-on-an-earlier-build) below.
+## Create the shared workbook
 
-1. Open the CSV in Tavru Sheets and confirm **Region** is column A, **Product** is B, and **Revenue** is C. A pasted table in a blank workbook also works if the values land in separate columns. Save a working copy as XLSX.
-2. Open **Developer → Code Editor**, select **Python**, and paste the script below. It reads six cells on the first worksheet and proposes updates only to those same cells. Python 3 must be available. Run scripts you trust because they execute with your account’s permissions.
-3. Acknowledge the trust prompt and choose **Run preview**. Verify that it proposes edits in **A2:A7** only and reports six normalized labels. Choose **Apply script changes** when satisfied. The edits are grouped so you can undo them together.
-4. Save the XLSX. In Tavru Analytics, choose **Connect**, open the workbook, and select the worksheet. Build a chart with **Region** on **Columns** and **Sum of Revenue** on **Rows**. Expect **East 2,800**, **North 2,600**, and **West 3,000**.
+1. Open the CSV in Tavru Sheets. Confirm **Region** is column A, **Product** is B, and **Revenue** is C. Check that the revenue cells are numeric.
+2. Enter `Clean Region` in **D1** and `=PROPER(TRIM(A2))` in **D2**. Fill the formula down through **D7**. You should see **East, North, West, East, North, West**.
+3. Save a copy as **Excel Workbook (.xlsx)**. Open the exported copy to check the formulas, cleaned labels, and numeric values before sharing. Excel users can edit the region in column A and the label in column D will recalculate.
+4. If the recipient only needs the cleaned data, paste the formula results as values into a separate copy before sharing. This is also useful when importing into a tool that reads stored values without recalculating formulas.
+5. In Tavru Analytics, choose **Connect**, open the XLSX, and select the worksheet. Put **Clean Region** on **Columns** and **Sum of Revenue** on **Rows**. Expect **East 2,800**, **North 2,600**, and **West 3,000**.
+
+No Tavru add-in, Python installation, or macro is needed to open or recalculate the shared workbook.
+
+## Optional local automation in Tavru Sheets
+
+Use this workflow in a separate working copy if you want to replace the region labels in place. It requires Python 3 and a Tavru Sheets build with the `workbook` scripting API. The API runs inside Tavru Sheets. Excel recipients use the resulting cell values and formulas.
+
+1. Open **Developer → Code Editor**, select **Python**, and paste the script below. Run only scripts you trust because they execute with your account’s permissions.
+2. Choose **Run preview**. Verify the changes are limited to **A2:A7** on the first worksheet. Choose **Apply script changes**. You can undo the changes as a group.
+3. For sharing, copy the cleaned cells into a fresh workbook and save that copy as **.xlsx**. In Analytics, use **Region** as the grouping field for this in-place workflow.
 
 ```python
 rows = workbook.read("A2:A7")
@@ -20,11 +31,4 @@ workbook.write("A2:A7", cleaned)
 print(f"Normalized {len(cleaned)} region labels.")
 ```
 
-The script uses the workbook bridge provided by Tavru Sheets. It assumes every cell in the sample range contains text. For a different workbook, inspect its first worksheet and range before running the script. Run a new preview if the workbook changes after the first one.
-
-
-## Use a formula on an earlier build
-
-1. Enter `Clean Region` in **D1** and `=PROPER(TRIM(A2))` in **D2**.
-2. Fill the formula down through **D7**. Verify the cleaned labels, then save the workbook.
-3. In Analytics, use **Clean Region** on **Columns** and **Sum of Revenue** on **Rows**. The totals are the same as in the Python workflow.
+The sample assumes every cell in the range contains text. Inspect the worksheet and range when adapting it to another file. Run a new preview if the workbook changes after the first one.

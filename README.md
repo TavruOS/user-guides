@@ -10,7 +10,7 @@ Start with an app from the TavruOS application menu. The screenshots show the pr
 | Scaffold a workspace and share reusable snippets | [Tavru Code templates](code-templates.md) |
 | Extend a photo and generate content beyond its edges | [Tavru Photo generative expand](photo-advanced.md) |
 | Find a receipt or cat photo with on-device search | [Files search and OCR](files-advanced.md) |
-| Clean a sales worksheet and chart the result | [Sheets → Analytics](sheets-advanced.md) |
+| Clean a sales worksheet, share it with Excel, and chart the result | [Sheets → Analytics](sheets-advanced.md) |
 | Review tracked edits and export a checked PDF | [Docs → PDF](document-review.md) |
 | Preview a firewall change and practice rollback | [Tavru Security](security-advanced.md) |
 | Turn a dashboard into a briefing and handout | [Analytics → Presenter](presenter-briefing.md) |

@@ -40,7 +40,7 @@ Start a workbook. Put column names in the first row and records below. Enter num
 
 ![Tavru Sheets workbook with its editing ribbon](screens/sheets.png)
 
-[Clean a workbook with Python and chart it in Analytics](sheets-advanced.md).
+[Clean a workbook, share it with Excel, and chart it in Analytics](sheets-advanced.md).
 
 ### Tavru Presenter
 
