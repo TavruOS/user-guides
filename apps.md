@@ -56,6 +56,8 @@ Open a photo, duplicate its layer if you want to keep an untouched version, and 
 
 ![Tavru Photo editing workspace with a layer panel](screens/photo.png)
 
+[Advanced workflow: expand a photo with generated content](photo-advanced.md).
+
 ### Tavru Imagine
 
 Check that the on-device image runtime is available. Choose **Generate**, enter a simple description, and generate a draft. Open the result from **Gallery** and export it for use in Photo or Presenter. Generation depends on having a compatible model installed.

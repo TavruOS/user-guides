@@ -1,6 +1,6 @@
 # Preview a local web project in Tavru Code and Tavru Containers
 
-[All guides](README.md)
+[All guides](README.md) · [Project templates and reusable snippets](code-templates.md)
 
 Use a Tavru Code build with the Tavru Containers extension and an existing, working local backend. Choose rootless Podman or Docker with the Compose plugin. In the app, the selected backend and CLI context must point to the same engine. Run both apps as an ordinary user.
 
