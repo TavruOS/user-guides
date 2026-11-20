@@ -9,6 +9,11 @@ Start with an app from the TavruOS application menu. The screenshots show the pr
 | Build in Tavru Code and run the result with Podman or Docker | [Tavru Code + Tavru Containers](code-and-containers.md) |
 | Scaffold a workspace and share reusable snippets | [Tavru Code templates](code-templates.md) |
 | Extend a photo and generate content beyond its edges | [Tavru Photo generative expand](photo-advanced.md) |
+| Find a receipt or cat photo with on-device search | [Files search and OCR](files-advanced.md) |
+| Clean a sales worksheet and chart the result | [Sheets → Analytics](sheets-advanced.md) |
+| Review tracked edits and export a checked PDF | [Docs → PDF](document-review.md) |
+| Preview a firewall change and practice rollback | [Tavru Security](security-advanced.md) |
+| Turn a dashboard into a briefing and handout | [Analytics → Presenter](presenter-briefing.md) |
 | Browse files, search for photos and receipts, use the web, or set up email | [Files, Browser, and Mail](apps.md#everyday-apps) |
 | Write documents, edit spreadsheets, make slides, or review a PDF | [Documents and presentations](apps.md#documents-and-presentations) |
 | Edit photos, generate images, or play music and videos | [Images and media](apps.md#images-and-media) |

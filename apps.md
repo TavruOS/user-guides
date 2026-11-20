@@ -10,6 +10,8 @@ Open your Pictures or Documents folder. Use the search box for filenames. For a 
 
 ![Tavru Files showing home folders and its navigation sidebar](screens/files.png)
 
+[Find receipts and photos](files-advanced.md).
+
 ### Tavru Browser
 
 Open a new tab with **Ctrl+T**. Type a site address or search terms in the address bar. Use the bookmark control to save a page. If a trusted page breaks after the ad-blocking extension installs, open its controls and check its settings for that site.
@@ -30,17 +32,23 @@ Choose a blank document or template. Enter a title and a few paragraphs, format 
 
 ![Tavru Docs home screen with templates](screens/docs.png)
 
+[Review tracked changes and publish a PDF](document-review.md).
+
 ### Tavru Sheets
 
 Start a workbook. Put column names in the first row and records below. Enter numbers in a column and use a SUM formula to verify the total. Save as XLSX, then follow [the Analytics guide](analytics.md#start-with-tavru-sheets-or-share-the-result) to make charts.
 
 ![Tavru Sheets workbook with its editing ribbon](screens/sheets.png)
 
+[Clean a workbook with Python and chart it in Analytics](sheets-advanced.md).
+
 ### Tavru Presenter
 
 Choose a theme or open a slide deck. Add a slide, enter a heading, and add your speaking notes. Run the slideshow to check layout and readability, then save. To continue an Analytics report as slides, open its exported PowerPoint deck here.
 
 ![Tavru Presenter theme and slide template chooser](screens/presenter.png)
+
+[Turn an Analytics dashboard into a briefing](presenter-briefing.md).
 
 ### Tavru PDF
 
@@ -77,6 +85,8 @@ Open a local music or video file. Add several tracks to the queue, start playbac
 Open the overview to check updates, software, and firewall status. Verify the app is connected to its native helper before relying on live status. When reviewing a firewall change, read the preview before applying. Confirm a working change when prompted, or let the timed rollback restore the previous rules. Use local assistance, if configured, to understand a proposed change before approving it.
 
 ![Tavru Security overview on the installed desktop](screens/security.png)
+
+[Practice firewall preview and rollback](security-advanced.md).
 
 ### TavruOS desktop
 

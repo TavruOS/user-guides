@@ -2,6 +2,8 @@
 
 [All guides](README.md) · [Advanced controls, layout, and inference](analytics-advanced.md)
 
+[Clean data in Sheets](sheets-advanced.md) · [Create a Presenter briefing](presenter-briefing.md).
+
 Practice with [sample-sales.csv](samples/sample-sales.csv). Save a local copy and keep it alongside your workbook. The sample is fictional and needs no database connection.
 
 1. Open **Tavru Analytics**. Choose **Connect** and select the CSV. On **Data source**, confirm that `Region` and `Product` are categories and `Revenue` is numeric.
