@@ -79,6 +79,7 @@ Open a local music or video file. Add several tracks to the queue, start playbac
 ![Tavru Media with a sample playback queue](screens/media.png)
 
 ## System and desktop
+Use [Tavru Echo](echo.md) to back up personal files and practice restoring a saved version.
 
 ### Tavru Security
 
